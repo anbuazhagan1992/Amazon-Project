@@ -1,0 +1,257 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-17T03:22:36.461Z",
+        "line": 4,
+        "name": "Validate with the valid credentials",
+        "description": "",
+        "id": "login-functionality;validate-with-the-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3996600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the login page",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters the valid name and password",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_enters_the_valid_name_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks the login button",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on the home page",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_is_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketesting"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-17T03:22:36.613Z",
+        "line": 12,
+        "name": "Validate with the invalid credentials",
+        "description": "",
+        "id": "login-functionality;validate-with-the-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is on the login page",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters the invalid name and invalid password",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_enters_the_invalid_name_and_invaild_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks the login button",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User is on the home page",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_is_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketesting"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-17T03:22:36.622Z",
+        "line": 20,
+        "name": "Validate with the one invalid credentials",
+        "description": "",
+        "id": "login-functionality;validate-with-the-one-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the login page",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters the invalid name and valid password",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_enters_the_invalid_name_and_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clicks the login button",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User is on the home page",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_is_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanitytesting"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-17T03:22:36.629Z",
+        "line": 28,
+        "name": "Validate with the valid one credentials",
+        "description": "",
+        "id": "login-functionality;validate-with-the-valid-one-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User is on the login page",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 998100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User enters the valid name and invalid password",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_enters_the_valid_name_and_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User clicks the login button",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User is on the home page",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_is_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressiontesting"
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Login.feature",
+    "tags": []
+  }
+]
